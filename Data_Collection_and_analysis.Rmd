@@ -1,0 +1,65 @@
+---
+title: "Data Collection and analysis"
+author: "Chris Mainey <chris.mainey@uhb.nhs.uk>"
+date: "2020/03/05 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: "libs/HED.css"
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: center, middle
+
+
+.pull-left[
+## Data Collection and analysis
+<br><br>
+__Chris Mainey__ 
+<br>
+ Senior Statistical Intelligence Analyst 
+<br>
+Healthcare Evaluation Data (HED) 
+
+.small[Univeristy Hospitals Birmingham NHS FT]
+<br><br>
+[www.hed.nhs.uk](https://www.hed.nhs.uk)
+]
+
+.pull-right[
+<img src=url("../assets/img/img-logo-uhb.bmp") width=250 fig.align="center">
+<img src=url("../assets/img/HI.png") width=250 fig.align="center">
+]
+
+
+<br><br>
+2020-01-20 (updated: `r Sys.Date()`)
+<br><br><br><br>
+<span style="font-size:14px !important;"> __&copy; Healthcare Evaluation Data (HED)__- part of Health Informatics, University Hospitals Birmingham NHS Foundation Trust.  
+<b>NOT TO BE REPUBLISHED OR DISTRIBUTED WITHOUT CONSENT</b> </span>
+
+---
+
+## Healthcare Evaluation Data (HED)
+
+
+.pull-left[
+- Online hospital benchmarking system
+- Statistical models and analysis tools
+- Activity, Mortality, Readmissions, Length-of-Stay, Marketshare etc.
+- Used by ~60 NHS and other organisations
+- Training and support
+<br><br>
+- __Using national NHS HES data__
+]
+.pull-right[
+<br>
+<img src="https://chrismainey.github.io/EARL_2019_presentation/assets/HED_system.png" width=300 height=200>
+<img src="https://chrismainey.github.io/EARL_2019_presentation/assets/HED_system.png" width=300 height=200>
+]
+
+<a href="https://www.hed.nhs.uk">www.hed.nhs.uk </a>

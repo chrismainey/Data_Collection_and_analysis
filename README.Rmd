@@ -1,0 +1,19 @@
+---
+output: github_document
+---
+
+# Warwick Digital Health Sciences Degree Lecture
+
+## Data Collection and Analysis
+
+Chris Mainey <chris.mainey@uhb.nhs.uk> - 09/03/2020 
+
+
+This is created in R markdown.  R is one of the main modern data sciences languages, and a useful tool for you to learn if you persue any form of data anlaysis, statistical or machine learning modelling or similar approaches.
+
+It is written using the R package `xaringan` which breaks up slides using:  ---
+
+You can see the code used to generate the slides, as well as the slides themselves, in this repository.
+Styling is controlled by a CSS file, the way websites do it, if you are interested.
+
+
