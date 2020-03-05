@@ -20,25 +20,27 @@ class: center, middle
 ## Data Collection and analysis
 <br><br>
 __Chris Mainey__ 
-<br>
+<br><br>
  Senior Statistical Intelligence Analyst 
 <br>
 Healthcare Evaluation Data (HED) 
 
 .small[Univeristy Hospitals Birmingham NHS FT]
-<br><br>
+<br><br><br>
 [www.hed.nhs.uk](https://www.hed.nhs.uk)
 ]
 
 .pull-right[
-<img src=url("../assets/img/img-logo-uhb.bmp") width=250 fig.align="center">
-<img src=url("../assets/img/HI.png") width=250 fig.align="center">
+<br><br><br><br><br><br><br>
+<img src="https://github.com/chrismainey/Data_Collection_and_analysis/raw/master/assets/img/logo.png" width=220 fig.align="center">
+<img src="https://github.com/chrismainey/Data_Collection_and_analysis/raw/master/assets/img/HI.png" width=250 fig.align="center">
+<br><br>
+<img src="https://github.com/chrismainey/Data_Collection_and_analysis/raw/master/assets/img/img-logo-uhb.bmp" width=250 fig.align="center">
 ]
 
 
-<br><br>
-2020-01-20 (updated: `r Sys.Date()`)
-<br><br><br><br>
+
+<br><br><br><br><br>
 <span style="font-size:14px !important;"> __&copy; Healthcare Evaluation Data (HED)__- part of Health Informatics, University Hospitals Birmingham NHS Foundation Trust.  
 <b>NOT TO BE REPUBLISHED OR DISTRIBUTED WITHOUT CONSENT</b> </span>
 
@@ -54,7 +56,7 @@ Healthcare Evaluation Data (HED)
 - Used by ~60 NHS and other organisations
 - Training and support
 <br><br>
-- __Using national NHS HES data__
+- __Using national NHS hospital data__
 ]
 .pull-right[
 <br>
