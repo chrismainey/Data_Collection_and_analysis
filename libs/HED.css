@@ -27,6 +27,8 @@ div {
 
 }
 
+p2
+
 .MathJax {
 font-size: 1.3em;
 }
@@ -61,6 +63,9 @@ img.center {
 
 .small{
   font-size: 90%;
+}
+.smaller{
+  font-size: 50%;
 }
 
 .mjx-chtml{ font-size: 110%; }
@@ -262,6 +267,10 @@ pre {margin: 0}
   h3 { font-size: 25px !important; line-height: 1em;}
 
   p {margin: 10px 0px 10px 0px;}
+  p2 {
+    margin: 10px 0px 10px 0px;
+    font-style: italic;
+  }
   li {margin: 10px 0px 5px 0px;}
 
 
@@ -340,6 +349,12 @@ th, td { padding: 5px; }
   float: left;
   width: 47%;
   font-size: 20px;
+  vertical-align: middle;
+}
+.pull-left2 {
+  float: left;
+  width: 47%;
+  font-size: 75%;
   vertical-align: middle;
 }
 .pull-right {

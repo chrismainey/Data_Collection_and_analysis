@@ -13,6 +13,7 @@ class: center, middle
 
 
 .pull-left[
+&lt;br&gt;
 ## Data Collection and analysis
 &lt;br&gt;&lt;br&gt;
 __Chris Mainey__ 
@@ -36,7 +37,7 @@ Healthcare Evaluation Data (HED)
 
 
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 &lt;span style="font-size:14px !important;"&gt; __&amp;copy; Healthcare Evaluation Data (HED)__- part of Health Informatics, University Hospitals Birmingham NHS Foundation Trust.  
 &lt;b&gt;NOT TO BE REPUBLISHED OR DISTRIBUTED WITHOUT CONSENT&lt;/b&gt; &lt;/span&gt;
 
@@ -72,20 +73,54 @@ Healthcare Evaluation Data (HED)
 + What types of data are there:
  + Qualitative
  + Quantitative
-+ Methods of analysis with QUantitative data
++ Methods of analysis with Quantitative data
  + Summary statstics
  + Plotting
  + Uncertainty
- + NOrmal distribution
- + Standard Error and COnfidence intervals
+
 
 ---
+class: middle
 
 # What are data?
 
 ---
 
-# Data, Knowledge, Information?
+## Data, Information, Knowledge, Wisdom?
+
+.pull-left2[
+####Data
++ Symbols representing properties, product of observation.
++ Know nothing
+
+####Information
++ Contained in descriptions and answers to questions.
++ Know what
+
+####Knowledge
++ The 'know-how' to transfer information into instructions.
++ Know how
+
+####Wisdom
++ Ability to increase effectiveness. Adds value, which requires judgement
++ Know why 
+
+]
+.pull-right[
+&lt;br&gt;&lt;br&gt;
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/0/06/DIKW_Pyramid.svg" width = 350&gt;
+.smaller[image credit: Longlivetheux / 
+CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)
+Source: https://en.wikipedia.org/wiki/DIKW_pyramid]
+
+]
+
+.footnote[Rowley, J. (2007). The wisdom hierarchy: representations of the DIKW hierarchy. _Journal of Information Science_, __33__(2), 163–180. https://doi.org/10.1177/0165551506070706 &lt;br&gt;
+R.L. Ackoff, (1989). From data to wisdom, _Journal of Applied Systems Analysis_ __16__ 3–9. &lt;br&gt;
+M. Zeleny, (1987). Management support systems: towards integrated knowledge management, _Human Systems
+Management_ __7__(1)  59–70.]
+
+
 
 ---
 
@@ -97,9 +132,22 @@ Healthcare Evaluation Data (HED)
  + Duration of something
  
 ## Secondary
-+ We generate data as a by product, or reuse it for another purpose:
++ We generate data as a by-product, or reuse it for another purpose:
  + Using patient care records to build risk models
  + Using patient data 
+---
+class: middle
+
+# Question:
+
+&lt;br&gt;&lt;br&gt;
+## Is the quality of care, in hospital X,  poor?
+
+--
+
++ How would you answer this question?
++ Where / how could you access data for it?
++ What are the issues with this question, and potential answers?
 
 ---
 
@@ -109,26 +157,51 @@ Various theoretical frameworks for this, and we are not doing an in-depth study 
 Summarise into:
 
 ## Qualitative
++ Understanding the meaning, concepts, or how something is appears in the 'real world'
+
+--
 
 ## Quantitative
 
++ Methods for discovering 'facts' 
++ Methods for dealing with 'hard' evidence, quantifiable usually in numbers
+
+--
+
+&lt;br&gt;&lt;br&gt;
+__Both involve measurement, interpretation, proxy effects etc.__
 
 ---
 
 # Qualitative Data
 
-# Interview, survey, feedback etc.
+&lt;p2&gt;...qualitative researchers study things in their natural settings, attempting to make sense of, or interpret, phenomena in terms of the meanings people bring to them. Qualitative research involves the studied use and collection of a variety of empirical materials – case study, personal experience, introspective, life story, interview, observational, historical, interactional, and visual texts – that describe routine and problematic moments and meanings in individuals’ lives&lt;/p2&gt;&lt;br&gt;
+___(Denzin &amp; Lincoln, 2005)___
+
+&lt;br&gt;
 
 
-# Observational:
- + e.g. Ethnography
++ Interview, survey, feedback etc.
++ Observational: e.g. Ethnography
+
+--
+
+Examples:
++ Patient experience
++ Ethnographic study of behaviour in hospitals
++ Understanding what patients want from care
+
+
+.footnote[
+Denzin, Norman K., and Yvonna S. Lincoln. 2005. Introduction. The discipline and practice of qualitative research. In The Sage handbook of qualitative research, ed. Norman K. Denzin and Yvonna S. Lincoln, 1–32. Thousand Oaks: SAGE Publications.
+]
 
 ---
 
 # Qualitative analysis
 
-+ Understanding your pholosophical position
-  + Realism, COnstructivism etc.
++ Understanding your phiolosophical position
+  + Realism, Constructivism etc.
   
 + Identifying your data collection method
  + Sampling strategy
@@ -138,10 +211,18 @@ Summarise into:
 + Analysis methods
  + Formal, e.g. constant comparative methods
  + Will you 'code' and how will you do it?
- 
+
+&lt;br&gt; 
 Example Tools:
 + Nvivo
++ MAXQDA
++ ATLAS.ti
 
+
+---
+class: middle
+
+# Quantitative analysis
 
 ---
 ## Data types
@@ -169,9 +250,10 @@ E.g. measurements, grouping factors, estimates, observations etc.
 + &lt;span style="color:DodgerBlue ; font-weight:bold;"&gt; Continuous:&lt;/span&gt; values that can be constantly divided with a possible number in between
   + E.g. height of a person could be 172, 173 or 172.5 cm
   + &lt;span style="color:SandyBrown; font-size:18px;"&gt; Examples in HI: &lt;/span&gt;  physiological measurements like blood pressure
+
 --
 
-&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
 + &lt;span style="color:DodgerBlue ; font-weight:bold;"&gt; Discrete:&lt;/span&gt; values that can only take whole numbers, usually obtained by counting.
   + E.g. Number of patients seen in a clinic could be 35 or 36 but not 35.5
   + &lt;span style="color:SandyBrown; font-size:18px;"&gt; Examples in HI: &lt;/span&gt; counts of patients, waiting time measured in whole minutes, length of stay measured in days (like HED/HES), number of patient episodes
@@ -197,8 +279,10 @@ E.g. measurements, grouping factors, estimates, observations etc.
 + &lt;span style="color:DodgerBlue ; font-weight:bold;"&gt; Nominal:&lt;/span&gt; Categories without any notion of order
   + E.g. Hair Colour, Brand of car, Country of residence
   + &lt;span style="color:SandyBrown; font-size:18px;"&gt; Examples in HI: &lt;/span&gt;  Ethnicity, Admission method, Treatment speciality 
+
 --
 
+&lt;br&gt;&lt;br&gt;
 + &lt;span style="color:DodgerBlue ; font-weight:bold;"&gt; Ordinal:&lt;/span&gt; Categories with order, but not linear like numeric 
   + E.g. Survey answers ‘Good, OK &amp; Bad’.  There is order, but ‘OK’ ≠ ‘Bad’ x 2 and ‘Good’ ≠ ‘Bad’ + ‘OK’
   + &lt;span style="color:SandyBrown; font-size:18px;"&gt; Examples in HI: &lt;/span&gt; Cancer stage, self-assessed patient answers like ‘is your health poor, OK or good,’  Age-groups &lt;1, 1-16, 17-40 etc.
@@ -206,7 +290,34 @@ E.g. measurements, grouping factors, estimates, observations etc.
 
 ---
 
-# Summarising Data
+---
+# Mixed Methods? 
+
+Certain questions might best be answered by a mixture of methods.
+
+
+E.g. Evaluating a patient safety programme:
++ Interviews with managers and healthcare staff
++ Ethnographic observations on wards
++ Casenote review for adverse events
++ Patient outcomes: adverse events, mortality
++ Patient statisfaction
+
+
+&lt;br&gt;&lt;br&gt;
+&lt;p2&gt; Large scale organisational intervention to improve patient safety in four UK hospitals: mixed method evaluation (2011);  __BMJ__ _342_ doi: https://doi.org/10.1136/bmj.d195 (Published 03 February 2011)
+&lt;/p2&gt;
+
+---
+class: middle
+
+# Methods and considerations for quantitative data 
+
+How can we go about answering a question?
+
+---
+
+# Example, summarising data
 &lt;br&gt;&lt;br&gt;
 ___“Dear informatics, I would like age of all patients admitted as an emergency to general medicine in December?”___
 
@@ -317,7 +428,7 @@ plot(ages)
 ## Box Plots
 
 .pull-left[
-&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
 __Box range is (“hinges”):__
 
 + 25th percentile
@@ -333,6 +444,14 @@ __Box range is (“hinges”):__
 
 &lt;img src="Data_Collection_and_analysis_files/figure-html/box-1.png" width="360" /&gt;
 ]
+
+---
+
+# Numerical summarise
+
+
+
+---
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="libs/remark-latest.min.js"></script>

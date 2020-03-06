@@ -17,6 +17,7 @@ class: center, middle
 
 
 .pull-left[
+<br>
 ## Data Collection and analysis
 <br><br>
 __Chris Mainey__ 
@@ -40,7 +41,7 @@ Healthcare Evaluation Data (HED)
 
 
 
-<br><br><br><br><br>
+<br><br><br><br>
 <span style="font-size:14px !important;"> __&copy; Healthcare Evaluation Data (HED)__- part of Health Informatics, University Hospitals Birmingham NHS Foundation Trust.  
 <b>NOT TO BE REPUBLISHED OR DISTRIBUTED WITHOUT CONSENT</b> </span>
 
@@ -76,20 +77,54 @@ Healthcare Evaluation Data (HED)
 + What types of data are there:
  + Qualitative
  + Quantitative
-+ Methods of analysis with QUantitative data
++ Methods of analysis with Quantitative data
  + Summary statstics
  + Plotting
  + Uncertainty
- + NOrmal distribution
- + Standard Error and COnfidence intervals
+
 
 ---
+class: middle
 
 # What are data?
 
 ---
 
-# Data, Knowledge, Information?
+## Data, Information, Knowledge, Wisdom?
+
+.pull-left2[
+####Data
++ Symbols representing properties, product of observation.
++ Know nothing
+
+####Information
++ Contained in descriptions and answers to questions.
++ Know what
+
+####Knowledge
++ The 'know-how' to transfer information into instructions.
++ Know how
+
+####Wisdom
++ Ability to increase effectiveness. Adds value, which requires judgement
++ Know why 
+
+]
+.pull-right[
+<br><br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/06/DIKW_Pyramid.svg" width = 350>
+.smaller[image credit: Longlivetheux / 
+CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)
+Source: https://en.wikipedia.org/wiki/DIKW_pyramid]
+
+]
+
+.footnote[Rowley, J. (2007). The wisdom hierarchy: representations of the DIKW hierarchy. _Journal of Information Science_, __33__(2), 163–180. https://doi.org/10.1177/0165551506070706 <br>
+R.L. Ackoff, (1989). From data to wisdom, _Journal of Applied Systems Analysis_ __16__ 3–9. <br>
+M. Zeleny, (1987). Management support systems: towards integrated knowledge management, _Human Systems
+Management_ __7__(1)  59–70.]
+
+
 
 ---
 
@@ -101,9 +136,22 @@ Healthcare Evaluation Data (HED)
  + Duration of something
  
 ## Secondary
-+ We generate data as a by product, or reuse it for another purpose:
++ We generate data as a by-product, or reuse it for another purpose:
  + Using patient care records to build risk models
  + Using patient data 
+---
+class: middle
+
+# Question:
+
+<br><br>
+## Is the quality of care, in hospital X,  poor?
+
+--
+
++ How would you answer this question?
++ Where / how could you access data for it?
++ What are the issues with this question, and potential answers?
 
 ---
 
@@ -113,26 +161,51 @@ Various theoretical frameworks for this, and we are not doing an in-depth study 
 Summarise into:
 
 ## Qualitative
++ Understanding the meaning, concepts, or how something is appears in the 'real world'
+
+--
 
 ## Quantitative
 
++ Methods for discovering 'facts' 
++ Methods for dealing with 'hard' evidence, quantifiable usually in numbers
+
+--
+
+<br><br>
+__Both involve measurement, interpretation, proxy effects etc.__
 
 ---
 
 # Qualitative Data
 
-# Interview, survey, feedback etc.
+<p2>...qualitative researchers study things in their natural settings, attempting to make sense of, or interpret, phenomena in terms of the meanings people bring to them. Qualitative research involves the studied use and collection of a variety of empirical materials – case study, personal experience, introspective, life story, interview, observational, historical, interactional, and visual texts – that describe routine and problematic moments and meanings in individuals’ lives</p2><br>
+___(Denzin & Lincoln, 2005)___
+
+<br>
 
 
-# Observational:
- + e.g. Ethnography
++ Interview, survey, feedback etc.
++ Observational: e.g. Ethnography
+
+--
+
+Examples:
++ Patient experience
++ Ethnographic study of behaviour in hospitals
++ Understanding what patients want from care
+
+
+.footnote[
+Denzin, Norman K., and Yvonna S. Lincoln. 2005. Introduction. The discipline and practice of qualitative research. In The Sage handbook of qualitative research, ed. Norman K. Denzin and Yvonna S. Lincoln, 1–32. Thousand Oaks: SAGE Publications.
+]
 
 ---
 
 # Qualitative analysis
 
-+ Understanding your pholosophical position
-  + Realism, COnstructivism etc.
++ Understanding your phiolosophical position
+  + Realism, Constructivism etc.
   
 + Identifying your data collection method
  + Sampling strategy
@@ -142,10 +215,18 @@ Summarise into:
 + Analysis methods
  + Formal, e.g. constant comparative methods
  + Will you 'code' and how will you do it?
- 
+
+<br> 
 Example Tools:
 + Nvivo
++ MAXQDA
++ ATLAS.ti
 
+
+---
+class: middle
+
+# Quantitative analysis
 
 ---
 ## Data types
@@ -173,9 +254,10 @@ E.g. measurements, grouping factors, estimates, observations etc.
 + <span style="color:DodgerBlue ; font-weight:bold;"> Continuous:</span> values that can be constantly divided with a possible number in between
   + E.g. height of a person could be 172, 173 or 172.5 cm
   + <span style="color:SandyBrown; font-size:18px;"> Examples in HI: </span>  physiological measurements like blood pressure
+
 --
 
-<br>
+<br><br>
 + <span style="color:DodgerBlue ; font-weight:bold;"> Discrete:</span> values that can only take whole numbers, usually obtained by counting.
   + E.g. Number of patients seen in a clinic could be 35 or 36 but not 35.5
   + <span style="color:SandyBrown; font-size:18px;"> Examples in HI: </span> counts of patients, waiting time measured in whole minutes, length of stay measured in days (like HED/HES), number of patient episodes
@@ -201,8 +283,10 @@ E.g. measurements, grouping factors, estimates, observations etc.
 + <span style="color:DodgerBlue ; font-weight:bold;"> Nominal:</span> Categories without any notion of order
   + E.g. Hair Colour, Brand of car, Country of residence
   + <span style="color:SandyBrown; font-size:18px;"> Examples in HI: </span>  Ethnicity, Admission method, Treatment speciality 
+
 --
 
+<br><br>
 + <span style="color:DodgerBlue ; font-weight:bold;"> Ordinal:</span> Categories with order, but not linear like numeric 
   + E.g. Survey answers ‘Good, OK & Bad’.  There is order, but ‘OK’ ≠ ‘Bad’ x 2 and ‘Good’ ≠ ‘Bad’ + ‘OK’
   + <span style="color:SandyBrown; font-size:18px;"> Examples in HI: </span> Cancer stage, self-assessed patient answers like ‘is your health poor, OK or good,’  Age-groups <1, 1-16, 17-40 etc.
@@ -210,7 +294,34 @@ E.g. measurements, grouping factors, estimates, observations etc.
 
 ---
 
-# Summarising Data
+---
+# Mixed Methods? 
+
+Certain questions might best be answered by a mixture of methods.
+
+
+E.g. Evaluating a patient safety programme:
++ Interviews with managers and healthcare staff
++ Ethnographic observations on wards
++ Casenote review for adverse events
++ Patient outcomes: adverse events, mortality
++ Patient statisfaction
+
+
+<br><br>
+<p2> Large scale organisational intervention to improve patient safety in four UK hospitals: mixed method evaluation (2011);  __BMJ__ _342_ doi: https://doi.org/10.1136/bmj.d195 (Published 03 February 2011)
+</p2>
+
+---
+class: middle
+
+# Methods and considerations for quantitative data 
+
+How can we go about answering a question?
+
+---
+
+# Example, summarising data
 <br><br>
 ___“Dear informatics, I would like age of all patients admitted as an emergency to general medicine in December?”___
 
@@ -340,7 +451,7 @@ ggplot(as.data.frame(ages), aes(x=ages)) +
 ## Box Plots
 
 .pull-left[
-<br><br>
+<br>
 __Box range is (“hinges”):__
 
 + 25th percentile
@@ -362,3 +473,94 @@ ggplot(as.data.frame(ages),
 
 ```
 ]
+
+---
+class: 
+
+# Question:
+
+### How can we describe the same data in words or numbers?
+
+
+---
+
+# Centre point
+
+Few ways to describe this:
++ Mean - sum / count
++ Median - Middle value or ordered data
++ Mode - The most common value
+
+
+```{r skew1, echo=FALSE, fig.align="center", fig.height=6.5, fig.retina=2, fig.width=9, message=FALSE, warning=FALSE, include=TRUE}
+
+library(sn)
+skew<-data.frame(
+  index=seq(10000),
+  l=round(as.numeric(rsn(10000, xi=0, omega=100, alpha=200)),0)
+)
+
+#didn't know how to do skewed distribution easily, so fudged it with this.  Using skewed normal distribution then correction for <0,
+#by adding the minimum value (made positive) to all.  Then generate right skew version by reversing (max - value)
+skew$l<-skew$l + abs(min(skew$l))
+skew$r<-max(skew$l) - skew$l
+
+#rearrange data into long "tidy" format for plotting. This uses the 'tidyr' function form the 'tidyverse.'
+#Tidyverse is a modern set of R functions for doing most common things like data manipluation, plotting etc. Easier than base R.
+#This function will give and index column, a key column that will contain l, or r, and a value.
+library(tidyr)
+skew_t<-gather(skew, key, value, -index)
+skew_t$key<-as.factor(skew_t$key)
+levels(skew_t$key) <- c("Left skew", "Right skew")
+
+
+#ggplot, using 'facet' to split into two plots according to 'key'
+s<-ggplot(skew_t, aes(x=value,col=key, fill=key))+
+  geom_histogram(alpha=0.5)+
+  facet_grid(~key)
+
+s
+```
+
+
+```{r skew2, include=TRUE, echo=FALSE, fig.retina=2,warning=FALSE, message=FALSE,  fig.width=9, fig.height=7, fig.align="center"}
+
+###Add summary statistics.  R doesn't have a 'mode' function so here's a used defined one:
+getmode <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+
+}
+
+
+#Add pre-calculated lines for mean, median and mode.
+s<-s+geom_vline(aes(xintercept = value, col="mean"), size=1, linetype=2, data=data.frame(key=rbind("Left skew", "Right skew"),value=rbind(l=mean(skew$l),r=mean(skew$r))))+
+  geom_vline(aes(xintercept = value, col="median"), size=1, linetype=2,data=data.frame(key=rbind("Left skew", "Right skew"),value=rbind(l=median(skew$l),r=median(skew$r))))+
+  geom_vline(aes(xintercept = value, col="mode"), size=1, linetype=2, data=data.frame(key=rbind("Left skew", "Right skew"),value=rbind(l=getmode(skew$l),r=getmode(skew$r))))+
+  scale_colour_manual(values=c("mean" = "2", "median" = "3","mode" ="4"), limits=c("mean","median","mode"))+
+  guides(fill=FALSE)
+
+  
+s
+```
+
+---
+
+## Summarising Skewed Data (2)
+
+```{r skew3, include=TRUE, echo=FALSE, fig.retina=2, warning=FALSE, message=FALSE,  fig.width=9, fig.height=7, fig.align="center"}
+qtiles<-
+  skew_t %>% 
+  filter(key=="Left skew") %>% 
+  summarise(p25=quantile(value, probs=0.25),
+            median=quantile(value, probs=0.5),
+            p75=quantile(value, probs=0.75)) %>% 
+  gather()
+
+#ggplot, using 'facet' to split into two plots according to 'key'
+s_qtl<-ggplot(skew_t[skew_t$key=="Left skew",], aes(x=value))+
+  geom_histogram(alpha=0.5, bins=50,  colour="#F8766D",  fill="#F8766D")+
+  geom_vline(aes(xintercept=value, group=key, col=key), data=qtiles, size =1)
+
+s_qtl  
+```
