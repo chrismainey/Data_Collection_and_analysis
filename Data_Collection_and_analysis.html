@@ -12,17 +12,18 @@
 class: center, middle
 
 
+
 .pull-left[
 &lt;br&gt;
 ## Data Collection and analysis
 &lt;br&gt;&lt;br&gt;
 __Chris Mainey__ 
 &lt;br&gt;&lt;br&gt;
- Senior Statistical Intelligence Analyst 
+.small[Senior Statistical Intelligence Analyst 
 &lt;br&gt;
 Healthcare Evaluation Data (HED) 
 
-.small[Univeristy Hospitals Birmingham NHS FT]
+University Hospitals Birmingham NHS FT]
 &lt;br&gt;&lt;br&gt;&lt;br&gt;
 [www.hed.nhs.uk](https://www.hed.nhs.uk)
 ]
@@ -74,7 +75,7 @@ Healthcare Evaluation Data (HED)
  + Qualitative
  + Quantitative
 + Methods of analysis with Quantitative data
- + Summary statstics
+ + Summary statistics
  + Plotting
  + Uncertainty
 
@@ -91,19 +92,19 @@ class: middle
 .pull-left2[
 ####Data
 + Symbols representing properties, product of observation.
-+ Know nothing
++ "Know nothing"
 
 ####Information
 + Contained in descriptions and answers to questions.
-+ Know what
++ "Know what"
 
 ####Knowledge
-+ The 'know-how' to transfer information into instructions.
-+ Know how
++ Hot to transfer information into instructions.
++ "Know how"
 
 ####Wisdom
 + Ability to increase effectiveness. Adds value, which requires judgement
-+ Know why 
++ "Know why"
 
 ]
 .pull-right[
@@ -127,8 +128,8 @@ Management_ __7__(1)  59–70.]
 # How do we generate data?
 
 ## Primary
-+ We collect data about a thing:
- + Occurances of an event
++ We deliberately collect data about a thing:
+ + Occurrences of an event
  + Duration of something
  
 ## Secondary
@@ -154,7 +155,7 @@ class: middle
 # Types of information
 
 Various theoretical frameworks for this, and we are not doing an in-depth study here.
-Summarise into:
+We will summarise into:
 
 ## Qualitative
 + Understanding the meaning, concepts, or how something is appears in the 'real world'
@@ -163,7 +164,7 @@ Summarise into:
 
 ## Quantitative
 
-+ Methods for discovering 'facts' 
++ Methods for discovering measurable 'facts'
 + Methods for dealing with 'hard' evidence, quantifiable usually in numbers
 
 --
@@ -172,7 +173,11 @@ Summarise into:
 __Both involve measurement, interpretation, proxy effects etc.__
 
 ---
+class: middle
 
+# Qualitative Analysis
+
+---
 # Qualitative Data
 
 &lt;p2&gt;...qualitative researchers study things in their natural settings, attempting to make sense of, or interpret, phenomena in terms of the meanings people bring to them. Qualitative research involves the studied use and collection of a variety of empirical materials – case study, personal experience, introspective, life story, interview, observational, historical, interactional, and visual texts – that describe routine and problematic moments and meanings in individuals’ lives&lt;/p2&gt;&lt;br&gt;
@@ -186,7 +191,8 @@ ___(Denzin &amp; Lincoln, 2005)___
 
 --
 
-Examples:
+####Examples:
+
 + Patient experience
 + Ethnographic study of behaviour in hospitals
 + Understanding what patients want from care
@@ -200,7 +206,7 @@ Denzin, Norman K., and Yvonna S. Lincoln. 2005. Introduction. The discipline and
 
 # Qualitative analysis
 
-+ Understanding your phiolosophical position
++ Understanding your philosophical position
   + Realism, Constructivism etc.
   
 + Identifying your data collection method
@@ -290,6 +296,29 @@ E.g. measurements, grouping factors, estimates, observations etc.
 
 ---
 
+# Quantitative analysis
+
++ Scientific method
+  
++ Identifying your data collection method
+ + Sampling strategy is statistical, to represent population
+ 
++ Measureable data, e.g.:
+ + Attendances at clinic
+ + Readmission to hospital
+
++ Analysis methods
+ + Visulise / tabulate
+ + Transform/summaries
+ + Statistical tests/modelling
+
+&lt;br&gt; 
+Example Tools:
++ Relational Databases ("SQL" systems)
++ Excel
++ R, Python
+
+
 ---
 # Mixed Methods? 
 
@@ -301,11 +330,11 @@ E.g. Evaluating a patient safety programme:
 + Ethnographic observations on wards
 + Casenote review for adverse events
 + Patient outcomes: adverse events, mortality
-+ Patient statisfaction
++ Patient satisfaction
 
 
 &lt;br&gt;&lt;br&gt;
-&lt;p2&gt; Large scale organisational intervention to improve patient safety in four UK hospitals: mixed method evaluation (2011);  __BMJ__ _342_ doi: https://doi.org/10.1136/bmj.d195 (Published 03 February 2011)
+&lt;p2&gt; Large scale organisational intervention to improve patient safety in four UK hospitals: mixed method evaluation (2011);  &lt;b&gt;BMJ&lt;/b&gt; 342 doi: &lt;a href="https://doi.org/10.1136/bmj.d195"&gt;https://doi.org/10.1136/bmj.d195&lt;/a? (Published 03 February 2011)
 &lt;/p2&gt;
 
 ---
@@ -321,7 +350,14 @@ How can we go about answering a question?
 &lt;br&gt;&lt;br&gt;
 ___“Dear informatics, I would like age of all patients admitted as an emergency to general medicine in December?”___
 
+--
+
 &lt;br&gt;&lt;br&gt;
+
+___OK, here:___
+
+
+&lt;br&gt;
 
 
 ```
@@ -361,6 +397,8 @@ ___“Dear informatics, I would like age of all patients admitted as an emergenc
 .pull-left[
 Plots and 'x' variable by a 'y' variable by point
 
+&lt;br&gt;
+
 ### Why doesn't this help?
 
 - We've only got one variable, not two
@@ -370,11 +408,6 @@ Plots and 'x' variable by a 'y' variable by point
 ]
 
 .pull-right[
-
-```r
-plot(ages)
-```
-
 &lt;img src="Data_Collection_and_analysis_files/figure-html/scatter-1.png" width="432" style="display: block; margin: auto;" /&gt;
 
 ]
@@ -446,12 +479,102 @@ __Box range is (“hinges”):__
 ]
 
 ---
+class: middle
 
-# Numerical summarise
-
-
+# Summarising data and distributions
 
 ---
+
+# Question:
+
+### How can we describe the same data in words or numbers?
+
+--
+
+&lt;br&gt;&lt;br&gt;
+
+#### Centre point
+
+Few ways to describe this:
++ Mean - sum / count
++ Median - Middle value or ordered data
++ Mode - The most common value
+
+---
+
+# Distributions
+
+&lt;img src="Data_Collection_and_analysis_files/figure-html/skew1-1.png" width="720" style="display: block; margin: auto;" /&gt;
+
+---
+# Distributions and centre points
+
+&lt;img src="Data_Collection_and_analysis_files/figure-html/skew2-1.png" width="720" style="display: block; margin: auto;" /&gt;
+
+---
+class: middle
+
+# Uncertainty in data
+
+---
+
+# Uncertainty
+
+Knowing a number is not necessarily enough.  How certain are our estimates?
+
+--
+
+## Question:
+
+#### If you toss a balanced coin, how often do you get "heads"?
+
+--
+
++ If we try twice, and both are heads, what does our evidence say?
+
+--
+
+ + 100% coin toss = heads
+
+--
+ 
+ + What if we do it 10 times?  Are you more certain?
+
+---
+
+# Sample size and uncertainty
+
++ Larger sample size reduces uncertainty
+
++ Commonly illustrated by:
+ + Standard deviation
+ + Standard error / confidence intervals
+
+--
+
+&lt;br&gt;&lt;br&gt;
+
+###Implications:
++ Case-series / case report
++ Clinical Trials:
+ + "Power" / sample size calculation
+ + Statistical analysis methods
++ Meta-analysis
+
+---
+
+# Summary
+
++ Data are not the goal, used to derive knowledge, information etc.
++ Primary collected for reason, secondary is reuse of data
++ Qualitative data used to understand meaning and context
+ + Commonly interviews, observations of feedback
+ + Often 'coded' by researchers
++ Quantitative data used to measure effects
+ + Often summarising observations
+ + Mean &amp; Median commonly used to describe mid-point
++ The number of data points affects our certainty about estimates.
+ + Larger sample sizes preferred
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="libs/remark-latest.min.js"></script>
@@ -499,42 +622,6 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
-(function() {
-  "use strict"
-  /* Replace <script> tags in slides area to make them executable
-   *
-   * Runs after post-processing of markdown source into slides and replaces only
-   * <script>s on the last slide of continued slides using the .has-continuation
-   * class added by xaringan. Finally, any <script>s in the slides area that
-   * aren't executed are commented out.
-   */
-  var scripts = document.querySelectorAll(
-    '.remark-slides-area .remark-slide-container:not(.has-continuation) script'
-  );
-  if (!scripts.length) return;
-  for (var i = 0; i < scripts.length; i++) {
-    var s = document.createElement('script');
-    var code = document.createTextNode(scripts[i].textContent);
-    s.appendChild(code);
-    scripts[i].parentElement.replaceChild(s, scripts[i]);
-  }
-  var scriptsNotExecuted = document.querySelectorAll(
-    '.remark-slides-area .remark-slide-container.has-continuation script'
-  );
-  if (!scriptsNotExecuted.length) return;
-  for (var i = 0; i < scriptsNotExecuted.length; i++) {
-    var comment = document.createComment(scriptsNotExecuted[i].outerHTML)
-    scriptsNotExecuted[i].parentElement.replaceChild(comment, scriptsNotExecuted[i])
-  }
-})();
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
 // adds .remark-code-has-line-highlighted class to <pre> parent elements
 // of code chunks containing highlighted lines with class .remark-code-line-highlighted
 (function(d) {
@@ -552,6 +639,17 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   }
   preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
 })(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
 
 <script>
 slideshow._releaseMath = function(el) {
