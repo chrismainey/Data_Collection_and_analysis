@@ -12,13 +12,17 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+    dev: png
 ---
 class: center, middle
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+library(Cairo)
 knitr::opts_chunk$set(fig.align = "center", 
-                      dev.args = list(png = list(type = "cairo")), fig.retina=3) 
+                      dev.args = list(type = "cairo"), fig.retina=3) 
+
+
 ```
 
 .pull-left[
@@ -32,7 +36,9 @@ __Chris Mainey__
 Healthcare Evaluation Data (HED) 
 
 University Hospitals Birmingham NHS FT]
-<br><br><br>
+<br>
+<chris.mainey@uhb.nhs.uk>
+<br>
 [www.hed.nhs.uk](https://www.hed.nhs.uk)
 ]
 
@@ -46,7 +52,7 @@ University Hospitals Birmingham NHS FT]
 
 
 
-<br><br><br><br>
+<br><br><br>
 <span style="font-size:14px !important;"> __&copy; Healthcare Evaluation Data (HED)__- part of Health Informatics, University Hospitals Birmingham NHS Foundation Trust.  
 <b>NOT TO BE REPUBLISHED OR DISTRIBUTED WITHOUT CONSENT</b> </span>
 
@@ -183,10 +189,10 @@ __Both involve measurement, interpretation, proxy effects etc.__
 ---
 class: middle
 
-# Qualitative Analysis
+## Qualitative Analysis
 
 ---
-# Qualitative Data
+## Qualitative Data
 
 <p2>...qualitative researchers study things in their natural settings, attempting to make sense of, or interpret, phenomena in terms of the meanings people bring to them. Qualitative research involves the studied use and collection of a variety of empirical materials – case study, personal experience, introspective, life story, interview, observational, historical, interactional, and visual texts – that describe routine and problematic moments and meanings in individuals’ lives</p2><br>
 ___(Denzin & Lincoln, 2005)___
@@ -304,7 +310,7 @@ E.g. measurements, grouping factors, estimates, observations etc.
 
 ---
 
-# Quantitative analysis
+### Quantitative analysis
 
 + Scientific method
   
@@ -316,12 +322,12 @@ E.g. measurements, grouping factors, estimates, observations etc.
  + Readmission to hospital
 
 + Analysis methods
- + Visulise / tabulate
- + Transform/summaries
+ + Visualise / tabulate
+ + Transform/summarise
  + Statistical tests/modelling
 
 <br> 
-Example Tools:
+.small[Example Tools:]
 + Relational Databases ("SQL" systems)
 + Excel
 + R, Python
