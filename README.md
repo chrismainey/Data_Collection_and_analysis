@@ -1,5 +1,5 @@
 
-# Warwick Digital Health Sciences Degree Lecture
+# Warwick Digital Healthcare Sciences Lecture
 
 ## Data Collection and Analysis
 
